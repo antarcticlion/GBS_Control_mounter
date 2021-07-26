@@ -10,3 +10,6 @@ This is a product under test. There may be some bugs left.
 
 ![Rev02 photo 1](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/Rev02_birdview.jpg) 
 ![Rev02 photo 2](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/Rev02_sideview.jpg) 
+![Rev03 board 1](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/Rev03_TOP_SIDE_A.png) 
+![Rev03 board 2](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/Rev03_TOP_SIDE_B.png) 
+
