@@ -1,5 +1,6 @@
 # GBS_Control_mounter
-GBS-Control Mounting plate for GBS-8200/8220
+[GBS-Control](https://github.com/ramapcsx2/gbs-control) Mounting plate for GBS-8200/8220
+
 
 ----
 # Note for Rev 0.3
