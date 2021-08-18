@@ -3,18 +3,23 @@
 
 
 ----
+# Note for Rev 0.4
+HD-VC9900をサポート
+
 # Note for Rev 0.3
 This is a product under test. There may be some bugs left.  
 これはテスト中のプロダクトです。不具合が残っているかもしれません。  
 
 
-![Rev04 photo 1](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/REV04_FRONT.jpg) 
-![Rev04 photo 2](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/REV04_SIDE.jpg) 
-![Rev02 photo 1](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/Rev02_birdview.jpg) 
-![Rev02 photo 2](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/Rev02_sideview2.jpg) 
-![Rev03 board 1](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/Rev03_TOP_SIDE_A.png) 
-![Rev03 board 2](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/Rev03_TOP_SIDE_B.png) 
-![Rev03 board 2](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/mounter_desc01.png) 
+![Rev04 photo 1](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/REV04_GBS8200.jpg)  
+![Rev04 photo 2](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/REV04_VC9900.jpg)  
+![Rev04 photo 1](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/REV04_FRONT.jpg)  
+![Rev04 photo 2](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/REV04_SIDE.jpg)  
+![Rev02 photo 1](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/Rev02_birdview.jpg)  
+![Rev02 photo 2](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/Rev02_sideview2.jpg)  
+![Rev03 board 1](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/Rev03_TOP_SIDE_A.png)  
+![Rev03 board 2](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/Rev03_TOP_SIDE_B.png)  
+![Rev03 board 2](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/mounter_desc01.png)  
 
 
 # ライセンス
