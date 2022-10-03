@@ -1,8 +1,18 @@
 # GBS_Control_mounter
 [GBS-Control](https://github.com/ramapcsx2/gbs-control) Mounting plate for GBS-8200/8220
 
+これはテスト中のプロダクトです。不具合が残っているかもしれません。  
 
 ----
+# Note for Rev 0.6
+外形を調整
+  
+外形  
+![Rev06 photo 1](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/Rev0.6_photo1.jpg)  
+  
+RGB MULTICONV と一緒にスタックした例  
+![Rev06 photo 2](https://github.com/antarcticlion/GBS_Control_mounter/raw/main/Photos/Rev0.6_photo2.jpg)  
+
 # Note for Rev 0.4
 HD-VC9900をサポート
 
