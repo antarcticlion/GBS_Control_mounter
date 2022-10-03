@@ -88,7 +88,7 @@ U 1 1 6398BB45
 P 2150 5200
 F 0 "J1" H 2230 5242 50  0000 L CNN
 F 1 "CLK_PAD" H 2230 5151 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 2150 5200 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-3-2.5-H-THR_1x03_P2.50mm_Horizontal" H 2150 5200 50  0001 C CNN
 F 3 "~" H 2150 5200 50  0001 C CNN
 	1    2150 5200
 	1    0    0    -1  
@@ -140,8 +140,6 @@ Wire Wire Line
 	1950 3000 2050 3000
 Wire Wire Line
 	2050 2900 1950 2900
-Wire Wire Line
-	1650 3500 1650 3550
 Wire Wire Line
 	1450 3500 1450 3600
 $Comp
@@ -502,7 +500,7 @@ L Connector_Generic:Conn_01x07 J7
 U 1 1 60F54B22
 P 2100 6750
 F 0 "J7" H 2180 6792 50  0000 L CNN
-F 1 "SIS351" H 2180 6701 50  0000 L CNN
+F 1 "SI5351_module" H 2180 6701 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical" H 2100 6750 50  0001 C CNN
 F 3 "~" H 2100 6750 50  0001 C CNN
 	1    2100 6750
@@ -690,31 +688,6 @@ F 3 "" H 2350 8050 50  0001 C CNN
 $EndComp
 Text GLabel 2400 2800 2    50   Input ~ 0
 ENC_SW
-Wire Wire Line
-	2400 2800 2300 2800
-Wire Wire Line
-	2300 2800 2300 3100
-Connection ~ 2300 2800
-Wire Wire Line
-	2300 2800 1950 2800
-$Comp
-L Device:R R1
-U 1 1 60FA697A
-P 2300 3250
-F 0 "R1" H 2370 3296 50  0000 L CNN
-F 1 "10KR" H 2370 3205 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2230 3250 50  0001 C CNN
-F 3 "~" H 2300 3250 50  0001 C CNN
-	1    2300 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 3550 2300 3550
-Wire Wire Line
-	2300 3550 2300 3400
-Connection ~ 1650 3550
-Wire Wire Line
-	1650 3550 1650 3600
 Text GLabel 3450 2600 2    50   Input ~ 0
 ENC_A
 Text GLabel 3450 2400 2    50   Input ~ 0
@@ -995,4 +968,151 @@ NoConn ~ 5650 1650
 Wire Wire Line
 	5750 1550 5650 1550
 NoConn ~ 5650 1550
+$Comp
+L Connector:DB15_Female_HighDensity_MountingHoles J11
+U 1 1 613DD39A
+P 12550 2150
+F 0 "J11" H 12550 3017 50  0000 C CNN
+F 1 "VGA_OUT" H 12550 2926 50  0000 C CNN
+F 2 "ryuk_lib:DB_15F-VGA_L" H 11600 2550 50  0001 C CNN
+F 3 " ~" H 11600 2550 50  0001 C CNN
+	1    12550 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 J12
+U 1 1 613DE2E6
+P 12950 4400
+F 0 "J12" H 12868 3575 50  0000 C CNN
+F 1 "VGA_IN" H 12868 3666 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B12B-PH-K_1x12_P2.00mm_Vertical" H 12950 4400 50  0001 C CNN
+F 3 "~" H 12950 4400 50  0001 C CNN
+	1    12950 4400
+	1    0    0    1   
+$EndComp
+Text GLabel 12050 1750 0    50   Input ~ 0
+VGA_R
+Text GLabel 12050 1950 0    50   Input ~ 0
+VGA_G
+Text GLabel 12050 2150 0    50   Input ~ 0
+VGA_B
+Text GLabel 13000 2150 2    50   Input ~ 0
+VGA_H
+Text GLabel 13000 2350 2    50   Input ~ 0
+VGA_V
+Text GLabel 12550 3100 3    50   Input ~ 0
+VGA_GND
+Wire Wire Line
+	1950 2800 2400 2800
+Wire Wire Line
+	1650 3500 1650 3600
+Wire Wire Line
+	12250 1650 11650 1650
+Wire Wire Line
+	11650 1650 11650 1850
+Wire Wire Line
+	11650 2950 12550 2950
+Wire Wire Line
+	12550 2850 12550 2950
+Connection ~ 12550 2950
+Wire Wire Line
+	12550 2950 12550 3100
+Wire Wire Line
+	12250 1850 11650 1850
+Connection ~ 11650 1850
+Wire Wire Line
+	11650 1850 11650 2050
+Wire Wire Line
+	12250 2050 11650 2050
+Connection ~ 11650 2050
+Wire Wire Line
+	11650 2050 11650 2450
+Wire Wire Line
+	12250 2450 11650 2450
+Connection ~ 11650 2450
+Wire Wire Line
+	11650 2450 11650 2950
+Wire Wire Line
+	12850 1750 13400 1750
+Wire Wire Line
+	13400 1750 13400 2950
+Wire Wire Line
+	13400 2950 12550 2950
+Wire Wire Line
+	13000 2350 12850 2350
+Wire Wire Line
+	12850 2150 13000 2150
+Wire Wire Line
+	12250 1750 12050 1750
+Wire Wire Line
+	12050 1950 12250 1950
+Wire Wire Line
+	12250 2150 12050 2150
+Wire Wire Line
+	12250 2250 12150 2250
+Wire Wire Line
+	12250 2350 12150 2350
+Wire Wire Line
+	12250 2550 12150 2550
+Wire Wire Line
+	12850 2550 12950 2550
+Wire Wire Line
+	12850 1950 12950 1950
+NoConn ~ 12950 1950
+NoConn ~ 12950 2550
+NoConn ~ 12150 2550
+NoConn ~ 12150 2350
+NoConn ~ 12150 2250
+Text GLabel 12650 4400 0    50   Input ~ 0
+VGA_H
+Text GLabel 12650 4500 0    50   Input ~ 0
+VGA_V
+Text GLabel 12650 4200 0    50   Input ~ 0
+VGA_B
+Text GLabel 12650 4000 0    50   Input ~ 0
+VGA_G
+Text GLabel 12650 3800 0    50   Input ~ 0
+VGA_R
+Wire Wire Line
+	12750 4700 12650 4700
+Wire Wire Line
+	12750 4800 12650 4800
+NoConn ~ 12650 4700
+NoConn ~ 12650 4800
+Wire Wire Line
+	12750 3800 12650 3800
+Wire Wire Line
+	12750 4000 12650 4000
+Wire Wire Line
+	12750 3900 12250 3900
+Wire Wire Line
+	12250 3900 12250 4100
+Wire Wire Line
+	12250 4900 12750 4900
+Wire Wire Line
+	12250 4900 12000 4900
+Connection ~ 12250 4900
+Wire Wire Line
+	12750 4600 12250 4600
+Connection ~ 12250 4600
+Wire Wire Line
+	12250 4600 12250 4900
+Wire Wire Line
+	12750 4500 12650 4500
+Wire Wire Line
+	12750 4400 12650 4400
+Wire Wire Line
+	12750 4300 12250 4300
+Connection ~ 12250 4300
+Wire Wire Line
+	12250 4300 12250 4600
+Wire Wire Line
+	12750 4200 12650 4200
+Wire Wire Line
+	12750 4100 12250 4100
+Connection ~ 12250 4100
+Wire Wire Line
+	12250 4100 12250 4300
+Text GLabel 12000 4900 0    50   Input ~ 0
+VGA_GND
 $EndSCHEMATC
